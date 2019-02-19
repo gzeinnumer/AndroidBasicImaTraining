@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--todo 18. LinearLayout-->
+<LinearLayout
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--todo 19. buat Button, button aja dulu-->
+    <!--todo 20. auto complete-->
+    <!--todo 21. tambahkan text 1.1.-->
+    <!--todo 22. buat id-->
+    <Button
+        android:id="@+id/btn_move"
+        android:text="Move"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="16dp"
+        android:text="Parsing Data"
+        android:id="@+id/btn_parsing_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="16dp"
+        android:text="Parsing Objeck"
+        android:id="@+id/btn_pasring_object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn_callback"
+        android:text="CallBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="16dp"
+        android:text="Email"
+        android:id="@+id/btn_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_marginTop="16dp"
+        android:text="Dial Number"
+        android:id="@+id/btn_dial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
